@@ -1,5 +1,5 @@
 :root {
-    --forny-form-paddings: 2.5rem;
+    --forny-form-paddings: .9375rem;
 
     --forny-color-accent-500: hsla(201, 78%, 46%, 1);
     --forny-color-accent-700: hsla(202, 82%, 40%, 1);

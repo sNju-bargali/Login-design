@@ -199,8 +199,8 @@
 
 .forny-form .btn.btn-primary {
     border: 0;
-    background-color: red;
-    background-color: var(--forny-color-accent-500);
+    
+   background: linear-gradient(to right,#415165 0,#265294d4 26%,#173b71 73%,#4f5d7a 100%);
 }
 
 .forny-form .btn.btn-primary:hover {
@@ -481,3 +481,103 @@
 .forny-container .btn-icon {
     margin-right: 8px;
 }
+
+/* New updated CSS */
+.forny-container{
+    margin-top:57px;
+}
+.forny-container .forny-inner{
+    z-index: 10000;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 15px;
+}
+header .header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    padding: 15px;
+    /* background: linear-gradient(to right,#415165 0,#010202 26%,#000000 73%,#4f5d7a 100%); */
+    background: #000;
+    opacity: 0.9;
+}
+header .header .left-side{
+    flex: 1;
+}
+header .header .right-side{
+
+}
+.content{
+background: linear-gradient(white, #D3D8E8);
+justify-content:flex-start !important;
+padding-left: 50px;
+background: linear-gradient(-52deg, rgba(87, 87, 87, 0.63), #2e5577 92%),url(https://www.funka.com/contentassets/7e264e3e284744c99ae8e163fd9aa006/folkmassa-manniskor-grupper-malgrupp_1280.jpg?width=1120&quality=80&scale=both);
+background-repeat: no-repeat;
+background-origin: border-box;
+background-size: cover;
+background-position: center center;
+}
+.letter-heading{
+display: flex;
+/* flex: 1; */
+/* text-align: center; */
+justify-content: center;
+font-size: 24px;
+color: white;
+padding: -9px;
+padding-right: -1px;
+text-shadow: 1px 4px 2px black;
+font-weight: 700;
+width: 100%;
+}
+@media(max-width:340px){
+    .remember-pass{
+    padding-right: 0;
+    }
+    .forgot-pass{
+    padding-left: 0;
+    }
+}
+@media(max-width:768px){
+    header .header{
+    position: relative;
+    }
+    .letter-heading{
+    display: none;
+    }
+    .forny-container{
+    margin-top: 55px !important;
+    justify-content: flex-start;
+    }
+    .content{
+    padding: 15px !important;
+    height: 100% !important;
+    justify-content: center !important;
+    }
+
+}
+/*animated text*/
+.elegantshadow{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+  }
+  .elegantshadow {
+    color: #fff;
+    letter-spacing: 0.15em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+  

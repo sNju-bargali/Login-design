@@ -16,3 +16,4 @@ function bindPasswordResetForm() {
 window.addEventListener('load', function() {
     bindPasswordResetForm();
 });
+

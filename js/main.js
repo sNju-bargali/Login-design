@@ -1,3 +1,24 @@
+$(document).ready(function(){
+    $('.login-form').show();
+    $('.loginActive').addClass('active');
+    $('.signup-form').hide();
+    $('.signupActive').removeClass('active');
+
+    $(".loginActive").click(function(){
+      $('.login-form').show();
+      $('.loginActive').addClass('active');
+      $('.signup-form').hide();
+      $('.signupActive').removeClass('active');
+    });
+    $(".signupActive").click(function(){
+        $('.login-form').hide();
+        $('.loginActive').removeClass('active');
+        $('.signup-form').show();
+        $('.signupActive').addClass('active');
+      });
+  });
+
+
 function bindPasswordReveal() {
     $('input[type="password"] + .input-group-append').each(function() {
         $(this).on('mousedown touchstart', function() {

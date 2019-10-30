@@ -1,3 +1,6 @@
+body{
+    background: #f2f2f2;
+}
 :root {
     --forny-p1: 0.25rem; /* 4px */
     --forny-p2: 0.5rem; /* 8px */
@@ -10,12 +13,12 @@
     --forny-text-xs: 0.75rem; /* 12px */
     --forny-text-sm: 0.875rem; /* 12px */
     --forny-text-md: 1rem; /* 16px */
-    --forny-form-width: 19.75rem;
+    --login-regerter-form-width: 19.75rem;
     --forny-color-facebook: hsla(221, 40%, 47%, 1);
     --forny-color-google: hsla(4, 69%, 53%, 1);
     --forny-color-twitter: hsla(195, 100%, 60%, 1);
-    --forny-form-control-border: 1px solid red;
-    --forny-form-control-padding: 4px;
+    --login-regerter-form-control-border: 1px solid red;
+    --login-regerter-form-control-padding: 4px;
     --forny-shadow-color: black;
     --forny-shadow: 0 3px 6px var(--forny-shadow-color);
 
@@ -32,216 +35,226 @@
     --forny-color-accent-500: red;
 }
 
-.forny-container .text-xs {
+.login-regerter-form-container .text-xs {
     font-size: 0.75rem;
     font-size: var(--forny-text-xs);
 }
 
-.forny-container .text-sm {
+.login-regerter-form-container .text-sm {
     font-size: 0.875rem;
     font-size: var(--forny-text-sm);
 }
 
-.forny-container .text-md {
+.login-regerter-form-container .text-md {
     font-size: 1rem;
     font-size: var(--forny-text-md);
 }
 
-.forny-container .cursor-pointer {
+.login-regerter-form-container .cursor-pointer {
     cursor: pointer;
 }
 
-.forny-container .pt-1 {
+.login-regerter-form-container .pt-1 {
     padding-top: 0.25rem !important;
     padding-top: var(--forny-p1) !important;
 }
-.forny-container .pt-2 {
+.login-regerter-form-container .pt-2 {
     padding-top: 0.5rem !important;
     padding-top: var(--forny-p2) !important;
 }
-.forny-container .pt-4 {
+.login-regerter-form-container .pt-4 {
     padding-top: 1rem !important;
     padding-top: var(--forny-p4) !important;
 }
-.forny-container .pt-10 {
+.login-regerter-form-container .pt-10 {
     padding-top: 2.5rem !important;
     padding-top: var(--forny-p10) !important;
 }
 
-.forny-container .pb-1 {
+.login-regerter-form-container .pb-1 {
     padding-bottom: 0.25rem !important;
     padding-bottom: var(--forny-p1) !important;
 }
-.forny-container .pb-2 {
+.login-regerter-form-container .pb-2 {
     padding-bottom: 0.5rem !important;
     padding-bottom: var(--forny-p2) !important;
 }
-.forny-container .pb-4 {
+.login-regerter-form-container .pb-4 {
     padding-bottom: 1rem !important;
     padding-bottom: var(--forny-p4) !important;
 }
-.forny-container .pb-10 {
+.login-regerter-form-container .pb-10 {
     padding-bottom: 2.5rem !important;
     padding-bottom: var(--forny-p10) !important;
 }
 
-.forny-container .mr-1 {
+.login-regerter-form-container .mr-1 {
     margin-right: 0.25rem !important;
     margin-right: var(--forny-p1) !important;
 }
-.forny-container .mr-2 {
+.login-regerter-form-container .mr-2 {
     margin-right: 0.5rem !important;
     margin-right: var(--forny-p2) !important;
 }
-.forny-container .mr-4 {
+.login-regerter-form-container .mr-4 {
     margin-right: 1rem !important;
     margin-right: var(--forny-p4) !important;
 }
-.forny-container .mr-6 {
+.login-regerter-form-container .mr-6 {
     margin-right: 1.5rem !important;
     margin-right: var(--forny-p6) !important;
 }
-.forny-container .mr-10 {
+.login-regerter-form-container .mr-10 {
     margin-right: 2.5rem !important;
     margin-right: var(--forny-p10) !important;
 }
 
-.forny-container .mb-1 {
+.login-regerter-form-container .mb-1 {
     margin-bottom: 0.25rem !important;
     margin-bottom: var(--forny-p1) !important;
 }
-.forny-container .mb-2 {
+.login-regerter-form-container .mb-2 {
     margin-bottom: 0.5rem !important;
     margin-bottom: var(--forny-p2) !important;
 }
-.forny-container .mb-4 {
+.login-regerter-form-container .mb-4 {
     margin-bottom: 1rem !important;
     margin-bottom: var(--forny-p4) !important;
 }
-.forny-container .mb-5 {
+.login-regerter-form-container .mb-5 {
     margin-bottom: 1.25rem !important;
     margin-bottom: var(--forny-p5) !important;
 }
-.forny-container .mb-6 {
+.login-regerter-form-container .mb-6 {
     margin-bottom: 1.5rem !important;
     margin-bottom: var(--forny-p6) !important;
 }
-.forny-container .mb-8 {
+.login-regerter-form-container .mb-8 {
     margin-bottom: 2rem !important;
     margin-bottom: var(--forny-p8) !important;
 }
-.forny-container .mb-10 {
+.login-regerter-form-container .mb-10 {
     margin-bottom: 2.5rem !important;
     margin-bottom: var(--forny-p10) !important;
 }
 
-.forny-container .mt-1 {
+.login-regerter-form-container .mt-1 {
     margin-top: 0.25rem !important;
     margin-top: var(--forny-p1) !important;
 }
-.forny-container .mt-2 {
+.login-regerter-form-container .mt-2 {
     margin-top: 0.5rem !important;
     margin-top: var(--forny-p2) !important;
 }
-.forny-container .mt-4 {
+.login-regerter-form-container .mt-4 {
     margin-top: 1rem !important;
     margin-top: var(--forny-p4) !important;
 }
-.forny-container .mt-5 {
+.login-regerter-form-container .mt-5 {
     margin-top: 1.25rem !important;
     margin-top: var(--forny-p5) !important;
 }
-.forny-container .mt-6 {
+.login-regerter-form-container .mt-6 {
     margin-top: 1.5rem !important;
     margin-top: var(--forny-p6) !important;
 }
-.forny-container .mt-10 {
+.login-regerter-form-container .mt-10 {
     margin-top: 2.5rem !important;
     margin-top: var(--forny-p10) !important;
 }
 
-.forny-container .border-r-0 {
+.login-regerter-form-container .border-r-0 {
     border-right-width: 0 !important;
 }
 
-.forny-container .btn-social {
+.login-regerter-form-container .btn-social {
     color: white;
     border: 0;
 }
 
-.forny-container .btn-flat {
+.login-regerter-form-container .btn-flat {
     padding: 0 !important;
 }
 
-.forny-container .btn-facebook {
+.login-regerter-form-container .btn-facebook {
     background: hsla(221, 40%, 47%, 1);
     background: var(--forny-color-facebook);
 }
-.forny-container .btn-facebook:hover {
+.login-regerter-form-container .btn-facebook:hover {
     background: hsla(221, 40%, 40%, 1);
 }
 
-.forny-container .btn-google {
+.login-regerter-form-container .btn-google {
     background: hsla(4, 69%, 53%, 1);
     background: var(--forny-color-google);
 }
-.forny-container .btn-google:hover {
+.login-regerter-form-container .btn-google:hover {
     background: hsla(4, 59%, 47%, 1);
 }
 
-.forny-container .btn-twitter {
+.login-regerter-form-container .btn-twitter {
     background: hsla(195, 100%, 60%, 1);
     background: var(--forny-color-twitter);
 }
-.forny-container .btn-twitter:hover {
+.login-regerter-form-container .btn-twitter:hover {
     background: hsla(195, 78%, 54%, 1);
 }
 
-.forny-form .btn.btn-primary {
+.login-regerter-form .btn.btn-primary {
     border: 0;
     
    background: linear-gradient(to right,#415165 0,#265294d4 26%,#173b71 73%,#4f5d7a 100%);
 }
 
-.forny-form .btn.btn-primary:hover {
+.login-regerter-form .btn.btn-primary:hover {
     background-color: var(--forny-color-accent-700);
 }
 
-.forny-container .text-facebook {
+.login-regerter-form-container .text-facebook {
     color: hsla(221, 40%, 47%, 1);
     color: var(--forny-color-facebook);
 }
 
-.forny-container .text-google {
+.login-regerter-form-container .text-google {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-color-google);
 }
 
-.forny-container .text-twitter {
+.login-regerter-form-container .text-twitter {
     color: hsla(195, 100%, 60%, 1);
     color: var(--forny-color-twitter);
 }
 
-.forny-container {
+.login-regerter-form-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     font-family: var(--forny-font-family);
     color: black;
     color: var(--forny-color-text);
+    margin-top: 100px;
+}
+.left-side-slider{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.login-regerter-inner{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.forny-container a {
+.login-regerter-form-container a {
     color: var(--forny-link-color);
 }
 
-.forny-form {
+.login-regerter-form {
     margin: 0 auto;
 }
 
-.forny-form h4 {
+.login-regerter-form h4 {
     color: black;
     color: var(--forny-color-header);
     font-weight: 700;
@@ -249,64 +262,64 @@
     margin-bottom: var(--forny-p4);
 }
 
-.forny-form .forny-logo {
+.login-regerter-form .forny-logo {
     text-align: center;
     margin-bottom: 2.5rem;
     margin-bottom: var(--forny-p10);
 }
 
-.forny-form .form-control {
+.login-regerter-form .form-control {
     height: auto;
     border: 1px solid red;
-    border: var(--forny-form-control-border);
+    border: var(--login-regerter-form-control-border);
     padding: 4px;
-    padding: var(--forny-form-control-padding);
-    border-radius: var(--forny-form-control-radius);
+    padding: var(--login-regerter-form-control-padding);
+    border-radius: var(--login-regerter-form-control-radius);
     box-shadow: none;
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
 }
 
-.forny-form .input-group-prepend .input-group-text,
-.forny-form .input-group-append .input-group-text {
+.login-regerter-form .input-group-prepend .input-group-text,
+.login-regerter-form .input-group-append .input-group-text {
     border: 1px solid red;
-    border: var(--forny-form-control-border);
+    border: var(--login-regerter-form-control-border);
     padding: 4px;
-    padding: var(--forny-form-control-padding);
-    border-radius: var(--forny-form-control-radius);
+    padding: var(--login-regerter-form-control-padding);
+    border-radius: var(--login-regerter-form-control-radius);
     text-align: center;
     display: inline-block;
     min-width: 48px;
 }
 
-.forny-form .input-group-prepend .input-group-text svg,
-.forny-form .input-group-append .input-group-text svg {
+.login-regerter-form .input-group-prepend .input-group-text svg,
+.login-regerter-form .input-group-append .input-group-text svg {
     fill: currentColor;
 }
 
-.forny-form .input-group .input-group-prepend + .form-control {
+.login-regerter-form .input-group .input-group-prepend + .form-control {
     border-left: 0 !important;
     padding-left: 0.25rem;
     padding-left: var(--forny-p1);
 }
 
-.forny-form .input-group .input-group-append + .form-control {
+.login-regerter-form .input-group .input-group-append + .form-control {
     border-right: 0;
     padding-right: 0.25rem;
     padding-right: var(--forny-p1);
 }
 
-.forny-container .alert-danger {
+.login-regerter-form-container .alert-danger {
     background-color: hsla(0, 100%, 94%, 1);
     background-color: var(--forny-danger-100);
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control,
-.forny-container .has-error .input-group-append .input-group-text,
-.forny-container .has-error .input-group-prepend .input-group-text {
+.login-regerter-form-container .has-error .form-control,
+.login-regerter-form-container .has-error .input-group-append .input-group-text,
+.login-regerter-form-container .has-error .input-group-prepend .input-group-text {
     border-color: hsla(4, 69%, 53%, 1);
     border-color: var(--forny-danger-500);
     outline-color: hsla(4, 69%, 53%, 1);
@@ -314,71 +327,71 @@
     box-shadow: none;
 }
 
-.forny-container .has-error .form-control,
-.forny-container .has-error .input-group-prepend .input-group-text {
+.login-regerter-form-container .has-error .form-control,
+.login-regerter-form-container .has-error .input-group-prepend .input-group-text {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-inner {
+.login-regerter-inner {
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 }
 
-.forny-form {
+.login-regerter-form {
     margin: auto;
 }
 
 @media (min-width: 768px) {
-    .forny-inner {
+    .login-regerter-inner {
         height: auto;
         width: 26rem;
-        width: var(--forny-form-width);
+        width: var(--login-regerter-form-width);
     }
 
-    .forny-form {
+    .login-regerter-form {
         width: 26rem;
-        width: var(--forny-form-width);
+        width: var(--login-regerter-form-width);
     }
 }
 
-.forny-container .has-error {
+.login-regerter-form-container .has-error {
     background: hsla(0, 100%, 94%, 1);
     background: var(--forny-danger-100);
 }
 
-.forny-container .has-error .form-control::-webkit-input-placeholder {
+.login-regerter-form-container .has-error .form-control::-webkit-input-placeholder {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control::-moz-placeholder {
+.login-regerter-form-container .has-error .form-control::-moz-placeholder {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control:-ms-input-placeholder {
+.login-regerter-form-container .has-error .form-control:-ms-input-placeholder {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control::-ms-input-placeholder {
+.login-regerter-form-container .has-error .form-control::-ms-input-placeholder {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control::placeholder {
+.login-regerter-form-container .has-error .form-control::placeholder {
     color: hsla(4, 69%, 53%, 1);
     color: var(--forny-danger-500);
 }
 
-.forny-container .has-error .form-control,
-.forny-container .has-error .input-group-text,
-.forny-container .has-error input:-webkit-autofill,
-.forny-container .has-error input:-webkit-autofill:hover,
-.forny-container .has-error input:-webkit-autofill:focus,
-.forny-container .has-error input:-webkit-autofill:active {
+.login-regerter-form-container .has-error .form-control,
+.login-regerter-form-container .has-error .input-group-text,
+.login-regerter-form-container .has-error input:-webkit-autofill,
+.login-regerter-form-container .has-error input:-webkit-autofill:hover,
+.login-regerter-form-container .has-error input:-webkit-autofill:focus,
+.login-regerter-form-container .has-error input:-webkit-autofill:active {
     box-shadow: 0 0 0 30px hsla(0, 100%, 94%, 1) inset !important;
     box-shadow: 0 0 0 30px var(--forny-danger-100) inset !important;
     border-color: hsla(4, 69%, 53%, 1);
@@ -387,55 +400,55 @@
     color: var(--forny-danger-500);
 }
 
-.forny-container .is-valid,
-.forny-container .is-valid input:-webkit-autofill,
-.forny-container .is-valid input:-webkit-autofill:hover,
-.forny-container .is-valid input:-webkit-autofill:focus,
-.forny-container .is-valid input:-webkit-autofill:active {
+.login-regerter-form-container .is-valid,
+.login-regerter-form-container .is-valid input:-webkit-autofill,
+.login-regerter-form-container .is-valid input:-webkit-autofill:hover,
+.login-regerter-form-container .is-valid input:-webkit-autofill:focus,
+.login-regerter-form-container .is-valid input:-webkit-autofill:active {
     background-color: hsla(152, 68%, 96%, 1);
     background-color: var(--forny-color-success-100);
     box-shadow: 0 0 0 30px hsla(152, 68%, 96%, 1) inset !important;
     box-shadow: 0 0 0 30px var(--forny-color-success-100) inset !important;
 }
 
-.forny-form .form-group.focused:not(.has-error) {
+.login-regerter-form .form-group.focused:not(.has-error) {
     background: white;
     border-color: var(--forny-color-text-100);
 }
 
-.forny-form .form-control,
-.forny-form .input-group-text {
+.login-regerter-form .form-control,
+.login-regerter-form .input-group-text {
     color: black;
     color: var(--forny-color-text);
     background: transparent;
 }
 
-.forny-form .form-control::-webkit-input-placeholder {
+.login-regerter-form .form-control::-webkit-input-placeholder {
     color: black;
     color: var(--forny-color-text);
 }
 
-.forny-form .form-control::-moz-placeholder {
+.login-regerter-form .form-control::-moz-placeholder {
     color: black;
     color: var(--forny-color-text);
 }
 
-.forny-form .form-control:-ms-input-placeholder {
+.login-regerter-form .form-control:-ms-input-placeholder {
     color: black;
     color: var(--forny-color-text);
 }
 
-.forny-form .form-control::-ms-input-placeholder {
+.login-regerter-form .form-control::-ms-input-placeholder {
     color: black;
     color: var(--forny-color-text);
 }
 
-.forny-form .form-control::placeholder {
+.login-regerter-form .form-control::placeholder {
     color: black;
     color: var(--forny-color-text);
 }
 
-.forny-container
+.login-regerter-form-container
     .custom-control-input:checked
     ~ .custom-control-label::before {
     border-color: red;
@@ -446,7 +459,7 @@
 
 /* INPUT ADDONS */
 
-.forny-form .form-group .input-group-append .input-group-text {
+.login-regerter-form .form-group .input-group-append .input-group-text {
     padding-left: 0.5rem;
     padding-left: var(--forny-p2);
     border-top-left-radius: 0;
@@ -454,12 +467,12 @@
     border-left: 0 !important;
 }
 
-.forny-form .form-group .input-group-append .input-group-text:hover {
+.login-regerter-form .form-group .input-group-append .input-group-text:hover {
     color: red;
     color: var(--forny-color-accent-500);
 }
 
-.forny-form .input-group-prepend .input-group-text {
+.login-regerter-form .input-group-prepend .input-group-text {
     padding-right: 0.5rem;
     padding-right: var(--forny-p2);
     border-top-right-radius: 0;
@@ -469,24 +482,22 @@
 
 /* ALERTS */
 
-.forny-container .alert {
+.login-regerter-form-container .alert {
     margin-bottom: 1rem;
     margin-bottom: var(--forny-p4);
 }
 
-.forny-container .password-field .form-control {
+.login-regerter-form-container .password-field .form-control {
     border-right: 0 !important;
 }
 
-.forny-container .btn-icon {
+.login-regerter-form-container .btn-icon {
     margin-right: 8px;
 }
 
 /* New updated CSS */
-.forny-container{
-    margin-top:57px;
-}
-.forny-container .forny-inner{
+
+.login-regerter-form-container .login-regerter-inner{
     z-index: 10000;
 }
 
@@ -505,10 +516,9 @@ header .header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #fff;
+    color: #000;
     padding: 15px;
     /* background: linear-gradient(to right,#415165 0,#010202 26%,#000000 73%,#4f5d7a 100%); */
-    background: #000;
     opacity: 0.9;
 }
 header .header .left-side{
@@ -555,7 +565,7 @@ width: 100%;
     .letter-heading{
     display: none;
     }
-    .forny-container{
+    .login-regerter-form-container{
     margin-top: 55px !important;
     justify-content: flex-start;
     }
@@ -581,3 +591,12 @@ width: 100%;
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
   }
   
+  footer{
+    background: #ccc;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 15px;
+}

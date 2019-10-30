@@ -1,5 +1,5 @@
 :root {
-    --forny-form-paddings: .9375rem;
+    --login-regerter-form-paddings: .9375rem;
 
     --forny-color-accent-500: hsla(201, 78%, 46%, 1);
     --forny-color-accent-700: hsla(202, 82%, 40%, 1);
@@ -16,32 +16,24 @@
     --forny-color-header: var(--forny-color-gray-900);
     --forny-link-color: var(--forny-color-accent-700);
 
-    --forny-form-control-border: none;
-    --forny-form-control-padding: var(--forny-p2) var(--forny-p4);
-    --forny-form-control-radius: 12px;
-    --forny-form-control-background: var(--forny-color-gray-100);
+    --login-regerter-form-control-border: none;
+    --login-regerter-form-control-padding: var(--forny-p2) var(--forny-p4);
+    --login-regerter-form-control-radius: 12px;
+    --login-regerter-form-control-background: var(--forny-color-gray-100);
     --forny-shadow-color: var(--forny-color-gray-300);
 }
 
-.forny-container {
-    background-size: contain;
-    font-size: 0.875rem;
-    font-size: var(--forny-text-sm);
-    display: flex;
-    align-items: center;
-}
-
-.forny-inner {
+.login-regerter-inner {
     display: block;
     height: auto;
 }
-
-.forny-form {
-    padding: 2.5rem;
-    padding: var(--forny-form-paddings);
+.signup-form,.login-form{
+    padding: 15px;
+}
+.login-regerter-form {
     background: white;
-    border-radius: 12px;
-    box-shadow: 1px 0px 22px 9px #000a!important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #888!important;
 }
 
 .forny-logo {
@@ -53,68 +45,68 @@
     .forny-logo {
         color: white;
     }
-    .forny-form {
+    .login-regerter-form {
         box-shadow: 0 3px 6px hsla(0, 0%, 0%, 0.16);
         box-shadow: var(--forny-shadow);
     }
 }
 
-.forny-form a {
+.login-regerter-form a {
     font-size: 0.875rem;
     font-size: var(--forny-text-sm);
 }
 
 /* FORMS */
 
-.forny-form .form-group {
+.login-regerter-form .form-group {
     margin-bottom: 1rem;
     margin-bottom: var(--forny-p4);
     background: hsla(0, 0%, 96%, 1);
-    background: var(--forny-form-control-background);
+    background: var(--login-regerter-form-control-background);
     border-radius: 12px;
-    border-radius: var(--forny-form-control-radius);
+    border-radius: var(--login-regerter-form-control-radius);
     transition: box-shadow 0.3s;
 }
 
-.forny-form .form-group.focused:not(.has-error) {
+.login-regerter-form .form-group.focused:not(.has-error) {
     background: white;
     box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.16);
     box-shadow: 0 1px 4px var(--forny-color-gray-300);
 }
 
-.forny-form .form-control,
-.forny-form .input-group-text {
+.login-regerter-form .form-control,
+.login-regerter-form .input-group-text {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
     background: transparent;
 }
 
-.forny-form .form-control::-webkit-input-placeholder {
+.login-regerter-form .form-control::-webkit-input-placeholder {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
 }
 
-.forny-form .form-control::-moz-placeholder {
+.login-regerter-form .form-control::-moz-placeholder {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
 }
 
-.forny-form .form-control:-ms-input-placeholder {
+.login-regerter-form .form-control:-ms-input-placeholder {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
 }
 
-.forny-form .form-control::-ms-input-placeholder {
+.login-regerter-form .form-control::-ms-input-placeholder {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
 }
 
-.forny-form .form-control::placeholder {
+.login-regerter-form .form-control::placeholder {
     color: hsla(0, 0%, 61%, 1);
     color: var(--forny-color-gray-700);
 }
 
-.forny-container
+.login-regerter-form-container
     .custom-control-input:checked
     ~ .custom-control-label::before {
     border-color: hsla(201, 78%, 46%, 1);
@@ -125,29 +117,57 @@
 
 /* BUTTONS */
 
-.forny-form .btn {
+.login-regerter-form .btn {
     border-radius: 12px;
-    border-radius: var(--forny-form-control-radius);
+    border-radius: var(--login-regerter-form-control-radius);
     font-weight: bold;
     padding: 0.5rem 1rem;
     padding: var(--forny-p2) var(--forny-p4);
 }
 
-.forny-container .line {
+.login-regerter-form-container .line {
     background: hsla(0, 0%, 69%, 1);
     background: var(--forny-color-gray-500);
     height: 1px;
     margin-top: 12px;
     text-align: center;
 }
-.forny-container .line span {
+.login-regerter-form-container .line span {
     background: #fff;
     padding: 8px;
     position: relative;
     top: -12px;
 }
 
-.forny-container .btn-icon.btn-flat {
+.login-regerter-form-container .btn-icon.btn-flat {
     width: 32px;
     height: 32px;
+}
+
+.forms-tabs ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+}
+.forms-tabs ul li{
+    flex: 1;
+    text-align: center;
+
+}
+.forms-tabs ul li.active{
+    background: linear-gradient(to right,#415165 0,#265294d4 26%,#173b71 73%,#4f5d7a 100%);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.forms-tabs ul li.loginActive.active{
+    border-top-left-radius: 5px;
+}
+.forms-tabs ul li.signupActive.active{
+    border-top-right-radius: 5px;
 }

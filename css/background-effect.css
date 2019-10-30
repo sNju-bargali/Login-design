@@ -177,7 +177,7 @@ a:focus {
 	content: '\2015   ';
 }
 
-.content {
+/* .content {
 	height: 300px;
 	position: relative;
 	display: flex;
@@ -215,7 +215,7 @@ a:focus {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-}
+} */
 
 @media screen and (min-width: 53em) {
 	:root {
